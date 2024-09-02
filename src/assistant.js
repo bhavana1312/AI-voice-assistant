@@ -6,7 +6,7 @@ import speech, { useSpeechRecognition } from "react-speech-recognition";
 
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey: process.env.OPENROUTER_API_KEY,
+  apiKey: "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",
   dangerouslyAllowBrowser: true,
 });
 
